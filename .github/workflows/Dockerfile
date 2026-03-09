@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/acs/alpine:3.19 AS base
+FROM alpine:latest AS base
 FROM base AS builder
 
 ARG TARGETPLATFORM
