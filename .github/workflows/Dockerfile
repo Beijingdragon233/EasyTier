@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/library/alpine:3.19 AS base
+FROM mirror.ccs.tencentyun.com/library/alpine:3.19 AS base
 FROM base AS builder
 
 ARG TARGETPLATFORM
