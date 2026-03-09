@@ -1,4 +1,4 @@
-FROM registry.cn-hangzhou.aliyuncs.com/library/alpine:latest AS base
+FROM registry.cn-hangzhou.aliyuncs.com/dockerhub_mirror/alpine:3.20 AS base
 FROM base AS builder
 
 ARG TARGETPLATFORM
